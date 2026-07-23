@@ -25,9 +25,8 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-_MODEL         = "gemini-2.5-pro"
-_FALLBACK_MODEL = "gemini-2.5-pro-preview-03-25"
-
+_MODEL         = "gemini-2.5-flash"
+_FALLBACK_MODEL = "gemini-2.5-flash-lite"
 _SYSTEM_PROMPT = (
     "You are a knowledgeable assistant helping Indian consumers understand car insurance. "
     "When asked about car insurance companies or comparisons, provide detailed, balanced, "
